@@ -1,0 +1,6 @@
+roles/artifactregistry.serviceAgent
+roles/run.serviceAgent
+roles/run.developer
+roles/run.invoker
+roles/eventarc.eventReceiver
+roles/storage.objectUser
