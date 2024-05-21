@@ -41,8 +41,7 @@ gcloud run services delete ${SERVICE_NAME} \
 gcloud eventarc triggers delete ${SERVICE_NAME} \
     --location=${REGION}
 
-# バケット名は手動で編集してください
-# "gcloud storage rm --recursive gs://" でGCS内の全てのバケット・オブジェクトが削除されます。
-gcloud storage rm --recursive gs://SOURCE_BUCKET_NAME
-gcloud storage rm --recursive gs://DESTINATION_BUCKET_NAME
+# バケット名は確認後、コメントアウトを除外して削除
+#gsutil rm -R gs://${SOURCE_BUCKET_NAME}
+#gsutil rm -R gs://${DESTINATION_BUCKET_NAME}
 ```
