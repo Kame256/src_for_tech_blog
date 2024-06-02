@@ -1,0 +1,32 @@
+[
+    {
+        "name": "page_num",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "gcs_uri",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "page_metadata",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "description",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "embeddings_data",
+        "type": "FLOAT",
+        "mode": "REPEATED"
+    },
+    {
+        "name": "filtered_data",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
